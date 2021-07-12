@@ -23,5 +23,6 @@ for key,value in dict1.items():
     ts.append(t)
 for thread in ts:
     thread.join()
+
 print(time.time()-start)
 print(result)
